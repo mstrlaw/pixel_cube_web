@@ -36,6 +36,18 @@
           <h3 class="text-2xl mb-5">What is it?</h3>
           <p class="text-lg mb-2">PixelCube is an Open Source project to build a time tracking cube!</p>
           <p class="text-lg mb-2">Each side is configurable using an Electron App – each time you flip a side up, it starts tracking time towards that side.</p>
+          
+          <div class="w-full mt-8">
+            <div class="sketchfab-embed-wrapper"><iframe width="640" height="480" src="https://sketchfab.com/models/8515f1621d4640148664bd067731b80e/embed?autostart=1" frameborder="0" allow="autoplay; fullscreen; vr" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
+            <p style="font-size: 13px; font-weight: normal; margin: 5px; color: #4A4A4A;">
+                <a href="https://sketchfab.com/3d-models/pixel-cube-full-8515f1621d4640148664bd067731b80e?utm_medium=embed&utm_source=website&utm_campaign=share-popup" target="_blank" style="font-weight: bold; color: #1CAAD9;">Pixel Cube - Full</a>
+                by <a href="https://sketchfab.com/marcos10soares?utm_medium=embed&utm_source=website&utm_campaign=share-popup" target="_blank" style="font-weight: bold; color: #1CAAD9;">marcos10soares</a>
+                on <a href="https://sketchfab.com?utm_medium=embed&utm_source=website&utm_campaign=share-popup" target="_blank" style="font-weight: bold; color: #1CAAD9;">Sketchfab</a>
+            </p>
+            </div>
+          </div>
+
         </div>
 
         <div class="bg-grey-lightest p-12 rounded-lg shadow-md text-center mt-8">
@@ -57,7 +69,7 @@
 
     <section class="highlight">
       <div class="m-auto w-2/3">
-        <div class="bg-grey-lightest p-12 rounded-lg shadow-md mb-32">
+        <div class="bg-grey-lightest p-12 rounded-lg shadow-md mb-16">
           <h3 class="text-2xl mb-5">What do I need?</h3>
           <p class="text-lg mb-2">Here's the specs used for PixelCube. You can use other hardware of couse.</p>
           
@@ -71,7 +83,7 @@
               >
             </div>
             <div class="spec w-1/2 p-5">
-              <h2>Arduino</h2>
+              <h2>Arduino Nano - Atmega 328p</h2>
             </div>
           </div>
           
@@ -85,7 +97,7 @@
               >
             </div>
             <div class="spec w-1/2 p-5">
-              <h2>Batteries</h2>
+              <h2>2x 3.7 400mah Li-Po Batteries</h2>
             </div>
           </div>
 
@@ -99,7 +111,7 @@
               >
             </div>
             <div class="spec w-1/2 p-5">
-              <h2>Bluetooth module</h2>
+              <h2>Bluetooth Low Energy - HC-06</h2>
             </div>
           </div>
 
@@ -113,7 +125,7 @@
               >
             </div>
             <div class="spec w-1/2 p-5">
-              <h2>RGB Led</h2>
+              <h2>2x RBG Led - 5mm OR 6 5mm LED with different colours</h2>
             </div>
           </div>
 
@@ -127,7 +139,7 @@
               >
             </div>
             <div class="spec w-1/2 p-5">
-              <h2>MPU 6050</h2>
+              <h2>MPU 6050 - Gyroscope & Accelerometer</h2>
             </div>
           </div>
 
@@ -147,6 +159,12 @@
 
         </div>
       </div>
+      <footer class="m-auto w-2/3 my-16">
+        <a
+          href="https://github.com/mstrlaw/pixel_cube"
+          target="_bkank"
+        >Github</a>
+      </footer>
     </section>
   </div>
 </template>
