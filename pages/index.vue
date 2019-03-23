@@ -57,7 +57,7 @@
 
         </div>
 
-        <div class="bg-grey-lightest p-12 rounded-lg shadow-md text-center mt-8">
+        <div class="bg-grey-lightest p-12 rounded-lg shadow-md text-center mt-8 my-16">
           <h3 class="text-2xl mb-5">Got the cube already? Download the app!</h3>
           <a
             href="/build/pixelcube-0.0.2.dmg"
