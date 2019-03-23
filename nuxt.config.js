@@ -32,7 +32,7 @@ module.exports = {
       { rel: 'mask-icon', href: '/favicons/safari-pinned-tab.svg', color:'#5bbad5'},
       { rel: 'shortcut icon', type: 'image/x-icon', href: '/favicons/favicon.ico' },
       /* Fonts */
-      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Quicksand:400,500' }
+      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Open+Sans' }
     ]
   },
 
