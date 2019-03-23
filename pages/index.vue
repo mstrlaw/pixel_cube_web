@@ -232,7 +232,7 @@ export default {
 
   section{
     position: relative;
-    height: 100vh;
+    height: 100%;
     
     &:before{
       content: "";
