@@ -1,5 +1,12 @@
 <template>
   <div>
+    <div class="banner shadow-md">
+      <a
+        href="https://taikai.network/pixelscamp/challenges/pixels-camp/projects/cjtiptotn2h15099352vi68ei/idea"
+        target="_blank"
+      >Back up on Taikai</a>
+      <img src="https://taikai.network/static/images/favicons/favicon-180x180.png" alt="Taikai Logo">
+    </div>
     <section>
       <div class="flex items-center justify-between h-full m-auto mt-1 w-2/3">
         <div class="flex flex-wrap items-center justify-between w-full">
@@ -195,6 +202,27 @@ export default {
   
   $grey-light: #F6F9FC;
   $blue: #78bcff;
+
+  .banner{
+    position: fixed;
+    display: flex;
+    align-items: center;
+    top: 15px;
+    right: 15px;
+    background: #FFF;
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: 2px solid rgb(80, 49, 168);
+    z-index: 100;
+    a{
+      text-decoration: none;
+      font-weight: bold;
+      margin-right: 10px;
+    }
+    img{
+      height: 20px;
+    }
+  }
 
   body, html{
     margin: 0;
